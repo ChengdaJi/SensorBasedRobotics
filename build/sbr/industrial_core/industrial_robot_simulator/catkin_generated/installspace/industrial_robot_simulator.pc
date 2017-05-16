@@ -1,0 +1,8 @@
+prefix=/home/chengda/sbr_workspace/install
+
+Name: industrial_robot_simulator
+Description: Description of industrial_robot_simulator
+Version: 0.5.1
+Cflags: 
+Libs: -L/home/chengda/sbr_workspace/install/lib 
+Requires: std_msgs sensor_msgs control_msgs trajectory_msgs

@@ -1,0 +1,8 @@
+prefix=/home/chengda/sbr_workspace/devel
+
+Name: aruco
+Description: Description of aruco
+Version: 0.2.0
+Cflags: -I/home/chengda/sbr_workspace/src/sbr/aruco_ros/aruco/include
+Libs: -L/home/chengda/sbr_workspace/devel/lib -laruco
+Requires: 

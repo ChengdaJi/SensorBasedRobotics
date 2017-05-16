@@ -1,0 +1,8 @@
+prefix=/home/chengda/sbr_workspace/install
+
+Name: ur_description
+Description: Description of ur_description
+Version: 1.1.9
+Cflags: 
+Libs: -L/home/chengda/sbr_workspace/install/lib 
+Requires: 

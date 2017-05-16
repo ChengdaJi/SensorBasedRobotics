@@ -1,0 +1,8 @@
+prefix=/home/chengda/sbr_workspace/devel
+
+Name: ur_msgs
+Description: Description of ur_msgs
+Version: 1.1.9
+Cflags: -I/home/chengda/sbr_workspace/devel/include
+Libs: -L/home/chengda/sbr_workspace/devel/lib 
+Requires: message_runtime std_msgs

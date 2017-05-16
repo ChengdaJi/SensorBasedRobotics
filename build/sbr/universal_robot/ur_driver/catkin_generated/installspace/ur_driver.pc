@@ -1,0 +1,8 @@
+prefix=/home/chengda/sbr_workspace/install
+
+Name: ur_driver
+Description: Description of ur_driver
+Version: 1.1.9
+Cflags: -I/home/chengda/sbr_workspace/install/include
+Libs: -L/home/chengda/sbr_workspace/install/lib 
+Requires: dynamic_reconfigure

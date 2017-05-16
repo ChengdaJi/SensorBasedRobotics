@@ -1,0 +1,17 @@
+# IT IS UNLIKELY YOU WANT TO EDIT THIS FILE BY HAND,
+# UNLESS FOR REMOVING ENTRIES.
+# IF YOU WANT TO CHANGE THE ROS ENVIRONMENT VARIABLES
+# USE THE rosinstall TOOL INSTEAD.
+# IF YOU CHANGE IT, USE rosinstall FOR THE CHANGES TO TAKE EFFECT
+- setup-file: {local-name: /opt/ros/kinetic/setup.sh}
+- git: {local-name: universal_robot, uri: 'https://github.com/ros-industrial/universal_robot.git',
+    version: kinetic-devel}
+- git: {local-name: industrial_core, uri: 'https://github.com/ros-industrial/industrial_core.git',
+    version: kinetic-devel}
+- git: {local-name: aruco_ros, uri: 'https://github.com/pal-robotics/aruco_ros.git',
+    version: kinetic-devel}
+- git: {local-name: hector_gazebo, uri: 'https://github.com/tu-darmstadt-ros-pkg/hector_gazebo.git',
+    version: kinetic-devel}
+- git: {local-name: husky, uri: 'https://github.com/husky/husky.git', version: kinetic-devel}
+- git: {local-name: ur_modern_driver, uri: 'https://github.com/iron-ox/ur_modern_driver.git',
+    version: iron-kinetic-devel}

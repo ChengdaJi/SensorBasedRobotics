@@ -1,0 +1,8 @@
+prefix=/home/chengda/sbr_workspace/install
+
+Name: industrial_trajectory_filters
+Description: Description of industrial_trajectory_filters
+Version: 0.5.1
+Cflags: -I/home/chengda/sbr_workspace/install/include
+Libs: -L/home/chengda/sbr_workspace/install/lib -lindustrial_trajectory_filters
+Requires: moveit_ros_planning trajectory_msgs

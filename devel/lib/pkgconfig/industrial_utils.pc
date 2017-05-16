@@ -1,0 +1,8 @@
+prefix=/home/chengda/sbr_workspace/devel
+
+Name: industrial_utils
+Description: Description of industrial_utils
+Version: 0.5.1
+Cflags: -I/home/chengda/sbr_workspace/src/sbr/industrial_core/industrial_utils/include
+Libs: -L/home/chengda/sbr_workspace/devel/lib -lindustrial_utils
+Requires: roscpp urdf

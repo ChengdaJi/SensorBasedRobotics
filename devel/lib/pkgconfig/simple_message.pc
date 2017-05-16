@@ -1,0 +1,8 @@
+prefix=/home/chengda/sbr_workspace/devel
+
+Name: simple_message
+Description: Description of simple_message
+Version: 0.5.1
+Cflags: -I/home/chengda/sbr_workspace/src/sbr/industrial_core/simple_message/include
+Libs: -L/home/chengda/sbr_workspace/devel/lib -lsimple_message_dummy
+Requires: roscpp industrial_msgs
